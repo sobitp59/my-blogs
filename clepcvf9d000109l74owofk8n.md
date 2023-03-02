@@ -1,4 +1,12 @@
-# Understanding Var, Let and Const in JavaScript with Examples
+---
+title: "Understanding Var, Let and Const in JavaScript with Examples"
+datePublished: Wed Mar 01 2023 07:27:54 GMT+0000 (Coordinated Universal Time)
+cuid: clepcvf9d000109l74owofk8n
+slug: understanding-var-let-and-const-in-javascript-with-examples
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1677393252289/40480aee-f4be-464e-85df-19867f340781.png
+tags: hosting, javascript, temporal-dead-zone
+
+---
 
 ## Overview
 
@@ -269,7 +277,7 @@ constA = 'hello mars!';
 
 Variables declared using *const* have the same block scope as variables declared using *let*. However, variables declared using *const* have a more restrictive scope than variables declared using *let*.
 
-We cannot redeclare a variable declared using const within the same block, while variables declared using let can be redeclared within the same block.
+We can neither redeclare nor we can re-assign variables declared using const within the same block, although variables declared using let can be re-assigned but cannot be re-declared within the same block.
 
 ```javascript
 if(true){
@@ -329,7 +337,7 @@ function calculate(numbers1, numbers2) {
 
 calculate([1,2,3,4],[10,11,12, 13]);
 // 10
-// 46 
+// 46
 ```
 
 # Summary
