@@ -4,7 +4,7 @@ datePublished: Wed Mar 22 2023 07:28:50 GMT+0000 (Coordinated Universal Time)
 cuid: clfjd5ilm000109le5fwj386b
 slug: how-asynchronous-javascript-works-a-deep-dive-into-its-execution-process
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1678883766730/9b2aa249-25c9-4694-ac7d-0dae74917ca3.png
-tags: javascript, event-loop, callstack, javascript-engine, javascript-runtime-environment
+tags: javascript, javascript-cikobu60x00mn7453gsb38dqp, event-loop, callstack, javascript-engine, javascript-runtime-environment
 
 ---
 
